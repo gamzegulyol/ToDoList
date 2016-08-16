@@ -50,7 +50,7 @@ public class Application {
 			break;
 		case 4:
 			index = Integer.parseInt(param);
-			TodoHelper.mark(index - 1, true);
+			TodoHelper.mark(index - 1, false);
 			break;
 
 		default:
